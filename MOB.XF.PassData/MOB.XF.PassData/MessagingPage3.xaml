@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MOB.XF.PassData.MessagingPage3">
+
+  <ContentPage.Content>
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+      <StackLayout Orientation="Horizontal">
+        <Label Text="Professor:" FontSize="Medium" HorizontalOptions="FillAndExpand" />
+        <Label Text="{Binding Nome}" FontSize="Medium" FontAttributes="Bold" />
+      </StackLayout>
+      <StackLayout Orientation="Horizontal">
+        <Label Text="Formação:" FontSize="Medium" HorizontalOptions="FillAndExpand" />
+        <Label Text="{Binding Titulo}" FontSize="Medium" FontAttributes="Bold" />
+      </StackLayout>
+      <StackLayout Orientation="Horizontal">
+        <Label Text="Ministra:" FontSize="Medium" HorizontalOptions="FillAndExpand" />
+        <Label Text="{Binding Disciplina}" FontSize="Medium" FontAttributes="Bold" />
+      </StackLayout>
+      <StackLayout Orientation="Horizontal">
+        <Label Text="Pais:" FontSize="Medium" HorizontalOptions="FillAndExpand" />
+        <Label Text="{Binding Pais}" FontSize="Medium" FontAttributes="Bold" />
+      </StackLayout>
+    </StackLayout>
+  </ContentPage.Content>
+
+</ContentPage>
